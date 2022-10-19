@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/x7c7v7i87/tools/util"
+	"github.com/x7c7v7i87/tools/date"
 )
 
 type Level int
@@ -16,7 +16,7 @@ var (
 	LogSavePath = "runtime/logs/"
 	LogSaveName = "log"
 	LogFileExt  = "log"
-	TimeFormat  = util.ToDate()
+	TimeFormat  = date.GetTime()
 )
 
 var (
