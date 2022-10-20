@@ -8,7 +8,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
-	"api/tools/authcode/md5"
+
+	"github.com/x7c7v7i87/tools/authcode/md5"
 )
 
 func init() {

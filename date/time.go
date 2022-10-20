@@ -62,5 +62,5 @@ func GetTodayStartAndEndTime() (int64, int64) {
 
 func GetTodayStartAndEndDate() (string, string) {
 	startTime, endTime := GetTodayStartAndEndTime()
-	return TimeToDate(startTime), TimeToDate(endTime)
+	return GetTimeToDate(startTime), GetTimeToDate(endTime)
 }
